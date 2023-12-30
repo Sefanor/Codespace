@@ -1,0 +1,11 @@
+.container {
+    background-color: #ff000061;
+}
+/* 
+.h1 {
+    background-color:  #0000ff8a;
+}  */
+  
+.list-group .list-group-item:hover {
+    background-color: rgba(145, 125, 255, 0.26);
+}
