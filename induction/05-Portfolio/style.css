@@ -1,0 +1,100 @@
+:root {
+    --custom-jumbotron-color: rgb(67, 73, 77);
+    --custom-jumbotron-color-dark: rgb(50, 52, 53);
+    --custom-navbar-color: rgb(49, 51, 53);
+    /* --primary: 43, 0, 83, 1; */
+    /* --secondary: 111, 0, 214, 1; */
+    /* --custom-color: linear-gradient(135deg, rgb(43, 0, 83),rgb(111, 0, 214)); */
+    --filter-darken: 0.9;
+}
+
+.nav * {
+    color: whitesmoke !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    background-color: var(--custom-jumbotron-color-dark);
+    color: white !important;
+}
+
+
+.navbar-brand:focus, .navbar-brand:hover {
+    background-color: var(--custom-jumbotron-color-dark);
+    color: white !important;
+}
+
+.navbar-custom, .navbar-custom * {
+    background-color: var(--custom-navbar-color);
+    color:white;
+}
+
+.jumbotron-custom {
+    background-color: var(--custom-jumbotron-color);
+    /* filter: brightness(var(--filter-darken)); */
+    color: whitesmoke
+}
+
+.btn-custom {
+    background-color: var(--custom-jumbotron-color);
+    color:white;
+}
+
+.bg-custom {
+    background-color: var(--custom-jumbotron-color);
+    color:white;
+}
+
+.btn-custom:hover {
+    background-color: var(--custom-jumbotron-color-dark);
+    color:white;
+}
+
+body {
+    /* background-color: red; */
+}
+
+#img-landing-page {
+    /* height: 800px; */
+    /* object-fit: none; */
+}
+
+.card-wiggle:hover {
+    transform: scale(1.05);
+    /* padding-left: 0;
+    padding-right: 0; */
+}
+.card-wiggle {
+    transition: all 0.4s;
+}
+
+
+/* overlay */
+.img-container{
+    position:relative;
+    display:inline-block;
+  }
+  .img-container .overlay{
+    position:absolute;
+    top:25%;
+    left:0;
+    width:35%;
+    height:50%;
+    background:black;
+    opacity:0.2;
+    
+  }
+
+  .overlay span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+  }
+
+  /* list group job board */
+  li:hover {
+    /* background-color: var(--custom-jumbotron-color); */
+    filter: brightness(92%);
+    /* color: white; */
+  }

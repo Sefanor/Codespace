@@ -1,0 +1,3 @@
+- add backend
+- check if fields are valid in each form
+- light and dark theme
